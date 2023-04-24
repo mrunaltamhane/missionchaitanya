@@ -1,0 +1,72 @@
+#bgimghome {
+  /* background-image: url("/public/assets/img.png"); */
+  background-image: url("https://s.hdnux.com/photos/17/32/47/4041157/4/rawImage.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+#homecontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 90vh;
+}
+/* 
+#home {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  border: 3px solid #000;
+  border-radius: 10px;
+  background-image: url("http://alphadogonlinemarketing.com/wp-content/uploads/2018/08/Transparent-background.png");
+  margin-top: 0%;
+   width: 65%; 
+  height: 58%;
+  padding: 1rem;
+} */
+
+#home {
+  height: 360px;
+  width: 790px;
+  background: inherit;
+  font-size: 1.5rem;
+  padding: 2rem;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.25);
+  /* border: 1px solid rgba(43, 43, 43, 0.568); */
+  backdrop-filter: blur(8px);
+  position: absolute;
+  overflow: hidden;
+  color:white;
+}
+.linktodonate{
+  text-decoration: none;
+  color: black;
+  width:8rem;
+  font-size:1.5rem;
+  font-weight:600;
+}
+.linktodonate:hover{
+  color:white;
+  background-color:#343434;
+}
+ 
+.home:before {
+  position: absolute;
+  content: "";
+  background: inherit;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 0 3000px rgba(255, 255, 255, 0.5);
+  filter: blur(10px);
+  border-radius: 15px;
+}
+
+#home > button {
+  font-size: 1.5rem;
+  font-weight: 600;
+}

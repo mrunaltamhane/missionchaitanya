@@ -1,0 +1,33 @@
+.cards{
+    width: 16.5rem;
+    height:28rem;
+    padding:0.1rem;
+    margin:0.2rem
+
+    
+}
+#cardimag{
+    width: 16rem;
+    height: 14rem
+}
+.desc{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.title-card{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin:0.2rem;
+    padding:0.2rem;
+    text-align: center;
+
+}.cardBody{
+    padding:0.2rem;
+    margin:0.2rem;
+    
+}
+.btncard{
+    margin:0.5rem;
+ 
+}

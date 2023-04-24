@@ -1,0 +1,33 @@
+#bgimgconflictandconfusion{
+    background-image: url("/public/assets/37.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top:2rem */
+     
+}
+#conflictandconfusion{
+height:100vh;
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+#conflictandconfusiontitle{
+    font-size: 3rem;
+    font-weight:900;
+    color:#ffffff;
+    margin:2rem;
+}
+.card-container{
+    
+    width: 90%;
+    position: absolute;
+    top:13rem;
+    /* left:1rem; */
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 316px);
+    grid-gap: 0.5rem;
+  
+  
+
+}
